@@ -10,7 +10,7 @@ const int maxLength = 10;
 const int maxKey = 50;
 int i = 0;
 
-void addEntry(char myList[10][2][50]);
+void addEntry(char myList[maxLength][2][maxKey]);
 void displayList(char myList[maxLength][2][maxKey], int numEntered);
 
 int main()
@@ -34,7 +34,6 @@ int main()
 		else if (option == 'Q')
 		{
 			break;
-			(1 == 0);
 		}
 	} while (1 == 1);
 	return 0;
